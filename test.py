@@ -5,24 +5,21 @@
 # # # # print(sum) #Print the value of sum
 
 # # # # Conditional Programming in Python
-# # # a=10
-# # # b=-20
-# # # if a < 0:
-# # #     print("a is negative")
-# # # if b < 0:
-# # #     print("b is negative")
-# # # else:
-# # #     print(a+b)
+# a = 10
+# b = 20
+# if a < 0:print("a is negative")
+# elif b < 0:print("b is negative")
+# else:print(a+b)
 
-# # a=input("Enter a number: ")
-# # b=input("Enter another number: ")
-# # if int(a) < 0:
-# #     print("a is negative")
-# # if int(b) < 0:
-# #     print("b is negative")
-# # else:
-# #    print(int(a)+int(b))
-# #    print(f"The sum of {a} and {b} is {int(a)+int(b)}")  
+# TypeCasting: Converting the value from one type to another is called as Typecasting, 
+# string to anyother type, any another type to Interger etc....
+
+# a=input("Enter a number: ")
+# b=input("Enter another number: ")
+# if int(a) < 0:print("a is negative")
+# if int(b) < 0:print("b is negative")
+# else:print(int(a)+int(b))
+# print(f"The sum of {a} and {b} is {int(a)+int(b)}")  
 
 # match_result = input("Enter the match result: ")
 # # if match_result == "win":
@@ -45,7 +42,7 @@
 # y=f(x)
 # y = dependent variable
 # x = independent variable
-# f = function
+# f = function or name of the function
 
 # Area if Rectangle
 # Area = f(length,breadth) = length * breadth
@@ -63,6 +60,15 @@
 # #  create a function to calculate the area of a rectangle
 # def area_of_rectangle(length,breadth):
 #     return length * breadth
+
+#Creating a function, def is keyword in python which is used to denote that it is a function or method
+# function are known as Methods in Python
+# def area(len,bre):
+#     return len*bre
+
+# area(10,20) # calling the function or using the function , 
+
+# print("Printing output:", area(10,20))# printing output
 
 # print(area_of_rectangle(10,20)) # calling the function
 # print(f"The area of the rectangle is {area_of_rectangle(-10,-20)}") # calling the function with negative values
