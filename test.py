@@ -77,7 +77,11 @@
 # Global variables are variables that are defined outside of a function and can be accessed by any function in the program.
 # Local variables are variables that are defined inside a function and can be accessed only by that function.
 # Error Type 1 we can solve is called Exception
-# Error Type 2 we cannot solve is called Error
+# # Error Type 2 we cannot solve is called Error
+# try:
+#     #Code that may cause an exception
+# except:
+#     #Code that will be executed if an exception occurs
 
 # a = int(input("Enter a number: "))
 # b = int(input("Enter another number: "))
